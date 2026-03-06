@@ -1,14 +1,14 @@
 import { useState } from "react";
-import outingImg from "../assets/images/nails.jpg";
-import makeupImg from "../assets/images/shopping.jpeg";
-import shoppingImg from "../assets/images/pic3.jpg";
-import travellingImg from "../assets/images/pic2.jpg";
-import foodImg from "../assets/images/pic5.jpg";
-import musicImg from "../assets/images/pic6.jpg";
-import wig from "../assets/images/pic4.jpg";
-import irish from "../assets/images/irish.jpeg";
-import pray from "../assets/images/pray.jpeg";
-import study from "../assets/images/study.jpeg";
+import outingImg from "/images/nails.jpg";
+import makeupImg from "/images/shopping.jpeg";
+import shoppingImg from "/images/pic3.jpg";
+import travellingImg from "/images/pic2.jpg";
+import foodImg from "/images/pic5.jpg";
+import musicImg from "/images/pic6.jpg";
+import wig from "/images/pic4.jpg";
+import irish from "/images/irish.jpeg";
+import pray from "/images/pray.jpeg";
+import study from "/images/study.jpeg";
 
 interface FavoriteItem {
   name: string;

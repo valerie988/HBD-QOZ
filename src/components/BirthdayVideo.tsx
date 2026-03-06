@@ -1,31 +1,29 @@
 interface VideoProps {
-  src: string;
-  poster?: string;
   title?: string;
 }
 
-const BirthdayVideo = ({ src, poster, title }: VideoProps) => {
+const BirthdayVideo = ({ title }: VideoProps) => {
   return (
-    <div className="flex flex-col items-center gap-4 mt-8 w-full">
+    <div className="w-full mt-8 flex flex-col items-center">
+
       {title && (
-        <h2 className="text-3xl md:text-4xl font-bold text-red-500 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-red-500 text-center mb-4">
           {title}
         </h2>
       )}
 
-      <div className="w-full md:w-100 lg:w-112.5">
-        <video
-          src={src}
-          poster={poster}
-          controls
-          autoPlay
-          muted
-          loop
-          className="w-full rounded-xl shadow-lg border-2 border-red-400"
-        >
-          Your browser does not support the video tag.
-        </video>
+      {/* Responsive Video Container */}
+      <div className="w-full aspect-video">
+
+        <iframe
+          src="https://player.cloudinary.com/embed/?cloud_name=dgxhlomww&public_id=vid_oanwig&autoplay=true&muted=true"
+          allow="autoplay; fullscreen; encrypted-media"
+          allowFullScreen
+          className="w-full h-full"
+        />
+
       </div>
+
     </div>
   );
 };

@@ -2,9 +2,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import pic1 from "../assets/images/pic21.jpg";
-import pic8 from "../assets/images/pic5.jpg";
-import pic3 from "../assets/images/pic20.jpg";
+import pic1 from "/images/pic21.jpg";
+import pic8 from "/images/pic5.jpg";
+import pic3 from "/images/pic20.jpg";
 import type { CSSProperties } from "react";
 
 interface ArrowProps {
