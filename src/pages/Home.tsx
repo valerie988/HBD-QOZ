@@ -20,7 +20,7 @@ const Home = () => {
       <ThingsSheLoves />
        <div className="min-h-4.5 flex flex-col items-center bg-pink-50 p-6 gap-8">
       <BirthdayVideo
-        src="src/assets/videos/vid.mp4"
+        src="/videos/vid.mp4"
         poster="/images/video-poster.png"
         title=""
       />

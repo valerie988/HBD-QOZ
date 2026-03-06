@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import confetti from "canvas-confetti";
 import bgImage from "../assets/images/pic1.jpg";
-import birthdayAudio from "../assets/videos/audio.mp3"; // mp3
+import birthdayAudio from "/videos/audio.mp3"; // mp3
 
 const Login = () => {
   const [birthday, setBirthday] = useState(""); // YYYY-MM-DD
